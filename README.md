@@ -19,14 +19,13 @@ The implementation applies principal component analysis (PCA) to sea-surface-tem
 │   ├── SST_normalize.ipynb
 │   ├── Adaptive_NVAR.ipynb
 │   └── NG-RC.ipynb
-├── data/
-│   └── README.md
 ├── Datasets/
 │   ├── East_Sea_Dataset.ipynb
 │   ├── Yellow_Sea_Dataset.ipynb
 │   ├── East_China_Sea_Dataset.ipynb
 │   ├── PCA_Explained_Variance_Comparison.ipynb
 │   └── Study_Regions.ipynb
+│   └── README.md
 ├── East Sea/
 │   ├── SST_normalize_East_Sea.ipynb
 │   ├── Adaptive_NVAR_East_Sea.ipynb
