@@ -72,7 +72,7 @@ The repository includes a lightweight, self-contained test that does **not** req
 Run:
 
 ```bash
-python examples/quick_test.py
+examples/Adaptive_NVAR.ipynb
 ```
 
 The test creates a small synthetic SST-like field, performs PCA reduction, constructs the delay-embedded features used by the Adaptive NVAR formulation, trains a small neural nonlinear feature map, and performs a short autonomous forecast. It prints the forecast shape and error metrics and exits with a non-zero status if the basic workflow fails.
