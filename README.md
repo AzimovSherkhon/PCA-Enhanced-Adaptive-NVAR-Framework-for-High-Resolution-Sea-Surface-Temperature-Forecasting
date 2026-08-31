@@ -15,7 +15,10 @@ The implementation applies principal component analysis (PCA) to sea-surface-tem
 ├── requirements.txt
 ├── .gitignore
 ├── examples/
-│   └── quick_test.py
+│   ├── README.md
+│   ├── SST_normalize.ipynb
+│   ├── Adaptive_NVAR.ipynb
+│   └── NG-RC.ipynb
 ├── data/
 │   └── README.md
 ├── Datasets/
