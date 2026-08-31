@@ -52,46 +52,10 @@ The notebooks:
 The corrected filename mapping is:
 
 ```text
-East Sea       -> SST_temp_Dataset_1.npy
-Yellow Sea     -> SST_temp_Dataset_2.npy
-East China Sea -> SST_temp_Dataset_4.npy
+East Sea       -> east_sea_sst.npy
+Yellow Sea     -> yellow_sea_sst.npy
+East China Sea -> east_china_sea_sst.npy
 ```
-
-## Important correction to the current notebooks
-
-There are two stale input filenames in the current normalization notebooks.
-
-### Yellow Sea
-
-`Yellow Sea/SST_normalize_Yellow_Sea.ipynb` currently contains:
-
-```python
-data_marine = np.load("SST_temp_Dataset_1.npy")
-```
-
-Change it to:
-
-```python
-data_marine = np.load("SST_temp_Dataset_2.npy")
-```
-
-because `Datasets/Yellow_Sea_Dataset.ipynb` creates `SST_temp_Dataset_2.npy`.
-
-### East China Sea
-
-`East China Sea/SST_normalize_East_China_Sea.ipynb` currently contains:
-
-```python
-data_marine = np.load("SST_temp_Dataset_3.npy")
-```
-
-Change it to:
-
-```python
-data_marine = np.load("SST_temp_Dataset_4.npy")
-```
-
-because `Datasets/East_China_Sea_Dataset.ipynb` creates `SST_temp_Dataset_4.npy`.
 
 ## Step 3 — normalize the data
 
