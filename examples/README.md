@@ -83,9 +83,3 @@ jupyter notebook
 ```
 
 Then open the notebooks under `examples/` and run the cells sequentially.
-
-### Important
-
-- Run `SST_normalize.ipynb` before the forecasting notebooks.
-- Keep the repository folder structure unchanged.
-- Restart the kernel and run all cells when reproducing results.
