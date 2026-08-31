@@ -117,18 +117,6 @@ np.load("sst_normalized_5k.npy")
 
 Therefore, when running a regional notebook, the normalized file should be available in that notebook's working directory.
 
-## Recommended file naming
-
-For future revisions, descriptive names are safer than numbered files:
-
-```text
-east_sea_sst.npy
-yellow_sea_sst.npy
-east_china_sea_sst.npy
-```
-
-If these names are adopted, the corresponding normalization notebooks should be updated at the same time.
-
 ## Data redistribution
 
 The original oceanographic NetCDF files are not included in this repository. Users should obtain the data from the Copernicus Marine Service according to its access and licensing terms.
