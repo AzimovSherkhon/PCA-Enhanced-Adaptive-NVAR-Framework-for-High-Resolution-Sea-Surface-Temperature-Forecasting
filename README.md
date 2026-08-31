@@ -65,9 +65,7 @@ python -m pip install -r requirements.txt
 
 A CUDA-capable GPU is optional. The Adaptive NVAR notebooks detect CUDA when it is available and otherwise use the CPU.
 
-## Quick test
-
-The repository includes a lightweight, self-contained test that does **not** require the full CMEMS/GLORYS12V1 dataset.
+## Examples
 
 Run:
 
@@ -75,11 +73,9 @@ Run:
 examples/Adaptive_NVAR.ipynb
 ```
 
-The test creates a small synthetic SST-like field, performs PCA reduction, constructs the delay-embedded features used by the Adaptive NVAR formulation, trains a small neural nonlinear feature map, and performs a short autonomous forecast. It prints the forecast shape and error metrics and exits with a non-zero status if the basic workflow fails.
-
-The quick test is intentionally small and is not intended to reproduce the scientific experiments reported in the manuscript.
-
 ## Data source
+
+Please make an account (for free) at data.marine.copernicus.eu/register to download the data. 
 
 The regional experiments use sea-water potential temperature (`thetao`) from the Copernicus Marine Service product:
 
