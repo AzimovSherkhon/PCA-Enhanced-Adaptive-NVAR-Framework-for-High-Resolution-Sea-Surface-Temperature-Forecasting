@@ -130,39 +130,11 @@ Use the following mapping when preparing the regional arrays:
 
 | Region | Raw NumPy file | Normalized file |
 |---|---|---|
-| East Sea | `SST_temp_Dataset_1.npy` | `sst_normalized_5k.npy` |
-| Yellow Sea | `SST_temp_Dataset_2.npy` | `sst_normalized_5k.npy` |
-| East China Sea | `SST_temp_Dataset_4.npy` | `sst_normalized_5k.npy` |
+| East Sea | `east_sea_sst.npy` | `sst_normalized_5k.npy` |
+| Yellow Sea | `yellow_sea_sst.npy` | `sst_normalized_5k.npy` |
+| East China Sea | `east_china_sea_sst.npy` | `sst_normalized_5k.npy` |
 
-**Important:** the current Yellow Sea and East China Sea normalization notebooks contain stale numeric filenames. Before running them, change:
-
-```python
-# Yellow Sea
-np.load("SST_temp_Dataset_1.npy")
-```
-
-to:
-
-```python
-np.load("SST_temp_Dataset_2.npy")
-```
-
-and change:
-
-```python
-# East China Sea
-np.load("SST_temp_Dataset_3.npy")
-```
-
-to:
-
-```python
-np.load("SST_temp_Dataset_4.npy")
-```
-
-This repository documentation uses the corrected mapping above.
-
-For long-term reproducibility, region-specific names such as `east_sea_sst.npy`, `yellow_sea_sst.npy`, and `east_china_sea_sst.npy` are preferable to numbered filenames.
+**Important:** After downloading and preprocessing the datasets, place each regional NumPy file in its corresponding regional directory. Then run the appropriate normalization notebook (SST_normalize_*.ipynb) to generate the normalized dataset before running the forecasting models.
 
 ## PCA and forecasting workflow
 
