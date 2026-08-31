@@ -1,0 +1,21 @@
+# Core scientific computing
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+
+# Machine learning / hyperparameter optimization
+torch
+optuna
+
+# Ocean-data handling
+xarray
+copernicusmarine
+
+# Regional-map notebook
+cartopy
+
+# Notebook environment
+jupyter
+ipykernel

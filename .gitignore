@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration / secrets
+.env
+*.env
+
+# Large oceanographic data and generated arrays
+*.nc
+*.nc4
+*.npy
+*.npz
+
+# Model checkpoints and experiment outputs
+*.pth
+*.pt
+*.ckpt
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
