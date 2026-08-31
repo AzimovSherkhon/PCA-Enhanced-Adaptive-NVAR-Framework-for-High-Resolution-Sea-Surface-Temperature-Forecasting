@@ -126,7 +126,7 @@ test = 500 time steps
 
 For normalization, the mean and standard deviation are calculated from the warmup + training interval (the first 4000 time steps), and those statistics are applied to the complete time series.
 
-## Corrected regional data workflow
+## Regional data workflow
 
 Use the following mapping when preparing the regional arrays:
 
