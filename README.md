@@ -231,10 +231,13 @@ The notebooks are research workflows and contain the detailed model implementati
 ## Runtime Environment
 
 The experiments were conducted in the following runtime environment:
-Name	Configuration
+
 CPU	Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz
+
 GPU	NVIDIA A100-PCIE-40GB
+
 Memory	376.54 GB RAM
+
 Operating System	Linux 3.10.0-1062.el7.x86_64 (64-bit)
 
 ## License
