@@ -233,14 +233,6 @@ The notebooks are research workflows and contain the detailed model implementati
 
 This project is distributed under the MIT License. See [`LICENSE`](LICENSE).
 
-## Citation
-
-If you use this code or reproduce the experiments, please cite the associated manuscript:
-
-> Sherkhon Azimov, Susana López-Moreno, Eric Dolores-Cuenca, JinYong Choi, and Sangil Kim, “PCA-Enhanced Adaptive NVAR Framework for High-Resolution Sea Surface Temperature Forecasting,” *Computers & Geosciences*.
-
-The bibliographic details should be updated after publication if a DOI and final publication information become available.
-
 ## Contact
 
-For questions concerning the implementation or manuscript, please contact the corresponding author through the contact information provided in the associated manuscript.
+For questions concerning the implementation or manuscript, please contact: sherxonazimov94@pusan.ac.kr.
