@@ -195,7 +195,7 @@ The notebooks currently specify 200 Optuna trials and multiple independent runs.
 
 ## Running the regional experiments
 
-After preparing and normalizing a regional dataset, open the corresponding notebook in Jupyter.
+After preparing a regional dataset, open the corresponding notebook in Jupyter.
 
 ### East Sea
 
@@ -228,8 +228,14 @@ The notebooks are research workflows and contain the detailed model implementati
 - The complete regional oceanographic datasets are external and are not stored in this repository.
 - The dataset acquisition notebooks document the Copernicus Marine dataset identifier and regional/time selections.
 - The normalized SST arrays are intermediate products generated from the downloaded data.
-- The quick test is independent of the external SST data and is intended to verify that the core PCA + Adaptive NVAR workflow can execute in a clean environment.
-- Results from the full experiments may vary slightly with software versions, hardware, and numerical behavior unless the notebook's specified seeds and deterministic settings are used.
+## Runtime Environment
+
+The experiments were conducted in the following runtime environment:
+Name	Configuration
+CPU	Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz
+GPU	NVIDIA A100-PCIE-40GB
+Memory	376.54 GB RAM
+Operating System	Linux 3.10.0-1062.el7.x86_64 (64-bit)
 
 ## License
 
