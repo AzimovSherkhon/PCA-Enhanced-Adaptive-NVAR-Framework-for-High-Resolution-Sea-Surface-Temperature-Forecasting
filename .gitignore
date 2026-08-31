@@ -18,7 +18,6 @@ env/
 # Large oceanographic data and generated arrays
 *.nc
 *.nc4
-*.npy
 *.npz
 
 # Model checkpoints and experiment outputs
