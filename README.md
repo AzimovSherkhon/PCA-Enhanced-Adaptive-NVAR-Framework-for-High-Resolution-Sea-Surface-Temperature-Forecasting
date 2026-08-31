@@ -99,7 +99,7 @@ The regional spatial subsets are:
 | Yellow Sea | 122.5–126.0°E | 34.0–38.0°N |
 | East China Sea | 124.0–128.0°E | 28.0–33.0°N |
 
-The original oceanographic NetCDF files are not redistributed in this repository. See [`data/README.md`](data/README.md) for the data-acquisition and preprocessing workflow.
+The original oceanographic NetCDF files are not redistributed in this repository. See [`data/README.md`](Datasets/README.md) for the data-acquisition and preprocessing workflow.
 
 ## Data preprocessing
 
